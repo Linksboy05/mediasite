@@ -50,17 +50,14 @@ header {
   font-family: "Space Grotesk", Arial, sans-serif;
   font-size: 34px;
   font-weight: 700;
-  letter-spacing: -3px;
+  letter-spacing: -2px;
   display: flex;
   align-items: center;
-}
-.logo > span:not(.media) {
-  font-size: 29px;
 }
 .logo .media {
   font-size: 10px;
   letter-spacing: 1px;
-  margin: 5px 0 0 10px;
+  margin: 5px 0 0 8px;
   align-self: center;
 }
 nav {
@@ -521,15 +518,12 @@ details .deliverables {
 .studio-symbol {
   font-family: Georgia, serif;
   font-style: italic;
-  font-size: 150px;
-  letter-spacing: -16px;
+  font-size: clamp(68px, 8vw, 108px);
+  letter-spacing: -7px;
   text-align: center;
   padding: 50px 0;
   border: 1px solid #bfc5b6;
   border-radius: 50%;
-}
-.studio-symbol > span {
-  color: #7a8d5b;
 }
 .studio-symbol div {
   font:
@@ -742,9 +736,6 @@ nav a:hover {
   .possibility-grid h3 {
     font-size: 28px;
   }
-  .studio-symbol {
-    font-size: 115px;
-  }
   .contact {
     gap: 5%;
   }
@@ -930,7 +921,6 @@ nav a:hover {
     margin-top: 20px;
   }
   .studio-symbol {
-    font-size: 125px;
     max-width: 340px;
     width: 100%;
     margin: auto;

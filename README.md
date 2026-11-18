@@ -1,6 +1,6 @@
-# A&B Media — editable website source
+# Meryx Media — editable website source
 
-This is the complete source for your current A&B Media site, including the Send project inquiry button and social buttons. It uses HTML5, CSS3 and plain JavaScript. There is no React, framework, npm requirement, build step, database or custom server. All three creative hero illustrations are built in HTML/CSS; there are no missing image assets.
+This is the complete source for your current Meryx Media site, including the Send project inquiry button and social buttons. It uses HTML5, CSS3 and plain JavaScript. There is no React, framework, npm requirement, build step, database or custom server. All three creative hero illustrations are built in HTML/CSS; there are no missing image assets.
 
 ## Files and what to edit
 
@@ -36,7 +36,7 @@ The contact form is prepared for FormSubmit email delivery, not a mailto link. O
 
 ## Put the site on GitHub Pages
 
-1. Create a GitHub repository, for example `ab-media`.
+1. Create a GitHub repository, for example `meryx-media`.
 2. Add the CONTENTS of this folder to the repository root. index.html must be at the top level, not inside an extra AB-Media-Website folder.
 3. Commit and push the files to the main branch. You can use VS Code Source Control, GitHub Desktop, or Git commands.
 4. In the repository on GitHub, open Settings > Pages.
@@ -51,7 +51,7 @@ Optional Git commands for a NEW, empty repository (replace YOUR-USERNAME and YOU
 ```sh
 git init
 git add .
-git commit -m "Add A&B Media website"
+git commit -m "Add Meryx Media website"
 git branch -M main
 git remote add origin https://github.com/YOUR-USERNAME/YOUR-REPOSITORY.git
 git push -u origin main

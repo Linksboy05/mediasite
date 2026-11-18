@@ -1,4 +1,4 @@
-const config = window.AB_MEDIA_CONFIG || {};
+const config = window.MERYX_MEDIA_CONFIG || {};
 const form = document.querySelector("#brief");
 const formStatus = document.querySelector("#form-status");
 const email = (config.businessEmail || "").trim();
@@ -6,7 +6,7 @@ const emailReady = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
 if (emailReady) {
   form.action = "https://formsubmit.co/" + encodeURIComponent(email);
   formStatus.textContent =
-    "Your inquiry will be processed by FormSubmit and emailed to A&B Media.";
+    "Your inquiry will be processed by FormSubmit and emailed to Meryx Media.";
 }
 form.addEventListener("submit", (event) => {
   if (!emailReady) {

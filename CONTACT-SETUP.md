@@ -1,4 +1,4 @@
-# A&B Media contact and social setup
+# Meryx Media contact and social setup
 
 Edit `config.js`. No layout changes are needed.
 
